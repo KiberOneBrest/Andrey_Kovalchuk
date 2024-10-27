@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="about.html">Об авторе</a>
+          <a href="index.html">Главная</a>
+          <a href="Отзыв.HTML">Отзыв</a>
+        </nav>
+      </header>
+    <main>
+        <section>
+            <form action="">
+            <input types="text" id="name" name="name"
+                required placeholder="Иванов Иван Иванович">
+                <label for="name"><b>Ф.И.О</b></label>
+                <input type="email" id="email" name="email" 
+                required placeholder="email@*.*">
+                <label for="email">Email</label>
+                <input type="tel" id="phone" name="phone"
+                placeholder="+375 44 704 25 94">
+                <label for="phone"><b>Телефон</b></label>
+                <input type="time" id="time" name="name"
+                required placeholder="12:00">
+                <label for="time"><b>время</b></label>
+                <input type="date" id="date" name="date"
+                required placeholder="1.0.2">
+                <label for="date"><b>дата</b></label>
+                <label for="Where"><i>Откуда вы знаете про сайт?</i></label>
+                <select name="where" id="where">
+                    <option value="Делал на уроке">Делал на уроке</option>
+                    <option value="Андрей рассказал ">Андрей рассказал</option>
+                    <option value="Перешел по ссылке">Перешел по ссылке</option>
+                </select>
+                <input type="range" id="rank" name="rank"
+                min="0" max="10">
+                <label for="range">Насколько вам нравится  сайт?</label>
+                <button type="submit">Отправить отзыв</button>
+                <!--time-->
+                <!--date-->
+
+                
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div>Ковальчук Андрей</div>
+        <div>2024</div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,221 @@
+.img1 {
+  width: 100%;
+  display: block;
+  height: 300px;
+}
+body {
+  margin: 0;
+}
+.header {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  background-color: brown;
+}
+nav a {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: right 10px;
+  padding: 10px;
+  background-color: rgb(174, 223, 111);
+}
+nav a:hover {
+  transition: all 0.3s 1s linear;
+  background-color: rgb(248, 244, 18);
+  color: black;
+}
+section {
+  width: 90%;
+  background-color: aqua;
+  margin: 25px auto;
+  border-radius: 20px;
+  padding: 25px;
+  margin-top: 25px;
+}
+section p {
+  font-size: xx-large;
+}
+iframe {
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+li {
+  width: 400px;
+  border: 3px solid rgb(224, 99, 185);
+  margin-bottom: 10px;
+  padding-left: 30px;
+  list-style-type: none;
+  padding: 20px;
+  font-size: xx-large;
+  color: aliceblue;
+  background-color: rgb(222, 222, 230);
+}
+li a {
+  color: rgb(233, 92, 190);
+}
+
+.video-cantainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.video-cantainer iframe {
+  width: 560px;
+  height: 315px;
+}
+audio {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  border: 3px solid rgb(68, 10, 226);
+  background-color: rgb(106, 120, 120);
+  width: 1300px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(235, 82, 22);
+  border: 1px solid burlywood;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.container div {
+  width: 100px;
+  height: 50px;
+}
+div.colors {
+  width: 660px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+div.main-content {
+  width: 400px;
+  height: 380px;
+  position: absolute;
+  background-color: aqua;
+  transform: translateY(150px);
+}
+div.blue:hover ~ div.main-content {
+  transition: all 1s linear;
+  background: blue;
+}
+div.red:hover~div.main-content{
+    transition: all 1s linear;
+    background: red;
+}
+div.green:hover~div.main-content{
+    transition: all 1s linear;
+    background: green;
+}
+div.yellow:hover~div.main-content{
+    transition: all 1s linear;
+    background: yellow;
+}
+.show-img-container{
+    height: 800px;
+}
+.show-img{
+    width: 200px;
+    height: 100px;
+    border:1px solid black;
+}
+.show-img>img{
+    margin-top: 100px;
+    display: block;
+    width: 500px;
+    height: 700px;
+    opacity: 0;
+}
+.show-img:hover img{
+    transition: all 3s linear;
+    opacity: 1;
+}
+td img{
+  width: 100px;
+  height: 60px;
+}
+table{
+ border-collapse: collapse;
+ width:100%;
+}
+td, th{
+  border: 2px solid black;
+  padding: 5px;
+}
+tr:nth-child(even){
+  background-color: rgb(213, 213, 24);
+}
+tr:hover{
+  background-color: azure;
+}
+th{
+  padding-top: 8 px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: #0096ff;
+  color:white
+}
+td a{
+  color:black
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: blue;
+color: azure;
+gap: 40px;
+}
+iframe{
+  width: 100%;
+}
+.two-cards{
+  display: flex;
+  gap: 20px;
+}
+.w-70{
+  width: 70%;
+}
+.w-30{
+  width: 30%;
+  align-self: center;
+}
+.card{
+  padding: 20px;
+  border-radius: 15px;
+  background-color: blanchedalmond;
+}
+input{
+  width:100% ;
+  padding:12px 20px;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
